@@ -10,7 +10,7 @@ The privacy policies in this repository are published through GitHub Pages so th
 
 Official Privacy Policy:
 
-https://gjt7976.github.io/app-privacy-policies/air-fryer-recipe-book.html
+https://gjt7976.github.io/AirFryerRecipeApp/privacy-policy.html
 
 Additional application privacy policies will be added to this repository as applications are published.
 
