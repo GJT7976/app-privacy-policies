@@ -12,6 +12,12 @@ Official Privacy Policy:
 
 https://gjt7976.github.io/AirFryerRecipeApp/privacy-policy.html
 
+### Hummus House
+
+Official Privacy Policy:
+
+https://gjt7976.github.io/app-privacy-policies/hummus-house.html
+
 Additional application privacy policies will be added to this repository as applications are published.
 
 ## Privacy
