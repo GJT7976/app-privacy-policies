@@ -1,257 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+# G. Thompson App Privacy Policies
 
-<title>Privacy Policy | Air Fryer Recipe Book</title>
+This repository contains the official privacy policies for applications developed and published by **G. Thompson**.
 
-<style>
-    * {
-        box-sizing: border-box;
-    }
+The privacy policies in this repository are published through GitHub Pages so they can be accessed publicly by users and linked from application store listings, including Google Play.
 
-    body {
-        margin: 0;
-        background: #f5f5f5;
-        color: #222;
-        font-family: Arial, Helvetica, sans-serif;
-        font-size: 17px;
-        line-height: 1.7;
-    }
+## Applications
 
-    .container {
-        max-width: 900px;
-        margin: 40px auto;
-        background: white;
-        padding: 50px 60px;
-        border-radius: 8px;
-        box-shadow: 0 2px 12px rgba(0,0,0,0.08);
-    }
+### Air Fryer Recipe Book
 
-    h1 {
-        margin-top: 0;
-        font-size: 34px;
-        color: #222;
-        border-bottom: 3px solid #333;
-        padding-bottom: 15px;
-    }
+Official Privacy Policy:
 
-    h2 {
-        margin-top: 35px;
-        font-size: 23px;
-        color: #222;
-    }
+https://gjt7976.github.io/app-privacy-policies/air-fryer-recipe-book.html
 
-    .dates {
-        color: #555;
-        margin-bottom: 30px;
-    }
+Additional application privacy policies will be added to this repository as applications are published.
 
-    ul {
-        padding-left: 25px;
-    }
+## Privacy
 
-    a {
-        color: #005bbb;
-        word-break: break-word;
-    }
+Each application has its own privacy policy describing:
 
-    .contact {
-        background: #f2f2f2;
-        padding: 20px;
-        border-radius: 6px;
-    }
+- Information collected by the application
+- Information stored locally on the user's device
+- Third-party services, if applicable
+- Purchases, if applicable
+- Data sharing practices
+- Children's privacy
+- Contact information
 
-    footer {
-        margin-top: 50px;
-        padding-top: 20px;
-        border-top: 1px solid #ccc;
-        color: #666;
-        font-size: 14px;
-        text-align: center;
-    }
+Individual applications may have different features and privacy practices. Please refer to the privacy policy for the specific application.
 
-    @media (max-width: 650px) {
-        .container {
-            margin: 0;
-            padding: 30px 20px;
-            border-radius: 0;
-        }
+## Developer
 
-        h1 {
-            font-size: 28px;
-        }
-    }
-</style>
-</head>
+**G. Thompson**
 
-<body>
+## Copyright
 
-<div class="container">
-
-<h1>Privacy Policy — Air Fryer Recipe Book</h1>
-
-<p class="dates">
-<strong>Effective:</strong> January 1, 2024<br>
-<strong>Revised:</strong> 2026
-</p>
-
-<p>
-This is the official privacy policy for
-<strong>Air Fryer Recipe Book</strong> by G. Thompson.
-</p>
-
-<p>
-The same text is shown in the app under
-<strong>Settings → Legal → Privacy Policy</strong>
-and is the policy linked from the Google Play Store listing.
-</p>
-
-<p>
-Air Fryer Recipe Book ("we", "us", or "our") is committed to
-protecting your privacy.
-</p>
-
-
-<h2>Information We Collect</h2>
-
-<p>
-This app operates entirely offline and on your device.
-We do not collect, store on any server, transmit, or share any
-personal data.
-</p>
-
-<p>
-No account is required. No analytics, tracking, advertising,
-or third-party SDKs are embedded, and the app makes no network
-requests of its own.
-</p>
-
-
-<h2>Data Stored on Your Device</h2>
-
-<p>
-The app saves your preferences and content locally on your
-device so they are available the next time you open it.
-</p>
-
-<p>This includes:</p>
-
-<ul>
-    <li>Shopping lists</li>
-    <li>Favourite recipes</li>
-    <li>Collections</li>
-    <li>Recipe ratings</li>
-    <li>Personal notes</li>
-    <li>Meal plans</li>
-    <li>Unit settings</li>
-    <li>Theme settings</li>
-    <li>Language settings</li>
-    <li>Whether Meal Planner Pro has been purchased</li>
-</ul>
-
-<p>
-This information stays on your device. It is not sent to us
-or to anyone else.
-</p>
-
-<p>
-You can remove locally stored information at any time by
-clearing applicable information within the app, clearing the
-app's data through your device settings, or uninstalling the app.
-</p>
-
-<p>
-If you use the <strong>Back up / Export</strong> feature,
-the app writes this data to a file in a location you choose.
-That exported file is then under your control.
-</p>
-
-
-<h2>Purchases</h2>
-
-<p>
-<strong>Meal Planner Pro</strong> is sold through Google Play
-Billing on Android.
-</p>
-
-<p>
-Purchases and refunds are handled by Google according to
-Google's terms and privacy policies.
-</p>
-
-<p>
-Air Fryer Recipe Book does not receive or store your credit
-card number, banking information, or other payment details.
-The app only records locally whether the Meal Planner Pro
-unlock is active.
-</p>
-
-
-<h2>Third-Party Services</h2>
-
-<p>
-The app does not integrate with advertising networks,
-analytics services, data brokers, or other third-party
-tracking services.
-</p>
-
-<p>
-Share, Email, and Print features are performed using services
-provided by your device's operating system.
-</p>
-
-<p>
-Website and support links open using your device's browser
-or email application.
-</p>
-
-
-<h2>Children's Privacy</h2>
-
-<p>
-Air Fryer Recipe Book does not knowingly collect personal
-information from children.
-</p>
-
-<p>
-The app contains no age-restricted content and does not
-collect personal data from users of any age.
-</p>
-
-
-<h2>Changes to This Privacy Policy</h2>
-
-<p>
-We may update this Privacy Policy from time to time.
-Material changes will be reflected in the app and on this
-published Privacy Policy page.
-</p>
-
-
-<h2>Contact</h2>
-
-<div class="contact">
-
-<p>
-For questions concerning this Privacy Policy, contact:
-</p>
-
-<p>
-<a href="mailto:privacy@airfryerrecipebook.app">
-privacy@airfryerrecipebook.app
-</a>
-</p>
-
-</div>
-
-
-<footer>
-© 2026 G. Thompson — Air Fryer Recipe Book
-</footer>
-
-</div>
-
-</body>
-</html>
+© 2026 G. Thompson. All rights reserved.
