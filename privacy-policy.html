@@ -1,249 +1,157 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="color-scheme" content="dark">
-  <meta name="theme-color" content="#050505">
-  <title>Privacy Policy | Bar Tenders Atlas</title>
-  <style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="index, follow">
+<title>Privacy Policy — Ramen Recipes</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #ffffff;
+    --fg: #1c1a17;
+    --muted: #6b6459;
+    --rule: #e7e2d9;
+    --accent: #E8750A;
+    --card: #faf7f2;
+  }
+  @media (prefers-color-scheme: dark) {
     :root {
-      --bg: #050505;
-      --panel: #0c0c0c;
-      --panel-2: #111111;
-      --text: #f3f0ea;
-      --muted: #bbb4a7;
-      --gold: #d8aa4b;
-      --gold-soft: #f0cc78;
-      --line: rgba(216,170,75,.32);
-      --shadow: 0 22px 60px rgba(0,0,0,.45);
+      --bg: #0A0908;
+      --fg: #ece7df;
+      --muted: #9b9284;
+      --rule: #2a2621;
+      --accent: #E8750A;
+      --card: #14110d;
     }
-
-    * { box-sizing: border-box; }
-
-    html { scroll-behavior: smooth; }
-
-    body {
-      margin: 0;
-      min-height: 100vh;
-      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-      background:
-        radial-gradient(circle at 18% 10%, rgba(216,170,75,.08), transparent 28rem),
-        radial-gradient(circle at 82% 2%, rgba(216,170,75,.05), transparent 24rem),
-        var(--bg);
-      color: var(--text);
-      line-height: 1.7;
-    }
-
-    a { color: var(--gold-soft); }
-
-    .wrap {
-      width: min(920px, calc(100% - 32px));
-      margin: 0 auto;
-      padding: 32px 0 56px;
-    }
-
-    .brand {
-      display: flex;
-      align-items: center;
-      gap: 16px;
-      margin-bottom: 20px;
-    }
-
-    .mark {
-      width: 58px;
-      height: 58px;
-      border: 2px solid var(--gold);
-      border-radius: 50%;
-      display: grid;
-      place-items: center;
-      box-shadow: inset 0 0 0 4px rgba(216,170,75,.08);
-      flex: 0 0 auto;
-    }
-
-    .mark svg { width: 32px; height: 32px; }
-
-    .brand-name {
-      font-family: Georgia, "Times New Roman", serif;
-      font-size: clamp(1.6rem, 4vw, 2.2rem);
-      letter-spacing: .01em;
-      margin: 0;
-      color: #fff;
-    }
-
-    .brand-name span { color: var(--gold); }
-
-    .tagline {
-      margin: 2px 0 0;
-      color: var(--muted);
-      font-size: .96rem;
-      letter-spacing: .03em;
-    }
-
-    .hero {
-      border: 1px solid var(--line);
-      background: linear-gradient(180deg, rgba(255,255,255,.025), rgba(255,255,255,.01));
-      border-radius: 22px;
-      padding: clamp(26px, 5vw, 52px);
-      box-shadow: var(--shadow);
-      overflow: hidden;
-      position: relative;
-    }
-
-    .hero::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 2px;
-      background: linear-gradient(90deg, transparent, var(--gold), transparent);
-    }
-
-    h1 {
-      margin: 0 0 8px;
-      font-size: clamp(2.2rem, 6vw, 4rem);
-      line-height: 1.05;
-      letter-spacing: -.025em;
-    }
-
-    .effective {
-      margin: 0;
-      color: var(--gold-soft);
-      font-weight: 650;
-    }
-
-    .intro {
-      margin: 26px 0 0;
-      font-size: 1.08rem;
-      color: #ded9cf;
-      max-width: 75ch;
-    }
-
-    main {
-      margin-top: 22px;
-      display: grid;
-      gap: 16px;
-    }
-
-    section {
-      background: var(--panel);
-      border: 1px solid rgba(255,255,255,.07);
-      border-radius: 16px;
-      padding: 24px;
-    }
-
-    section h2 {
-      margin: 0 0 10px;
-      color: var(--gold-soft);
-      font-size: 1.2rem;
-      letter-spacing: .01em;
-    }
-
-    section p { margin: 0; color: #ddd8cf; }
-
-    .notice {
-      border-color: var(--line);
-      background: var(--panel-2);
-    }
-
-    footer {
-      margin-top: 20px;
-      color: var(--muted);
-      font-size: .92rem;
-      text-align: center;
-    }
-
-    .divider {
-      width: 88px;
-      height: 1px;
-      margin: 20px auto;
-      background: linear-gradient(90deg, transparent, var(--gold), transparent);
-    }
-
-    @media (max-width: 560px) {
-      .wrap { width: min(100% - 20px, 920px); padding-top: 18px; }
-      .hero, section { border-radius: 14px; }
-      section { padding: 20px; }
-      .tagline { font-size: .86rem; }
-    }
-  </style>
+  }
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--fg);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  main {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  header {
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 16px;
+    margin-bottom: 8px;
+  }
+  h1 {
+    font-size: 1.9rem;
+    line-height: 1.2;
+    margin: 0 0 6px;
+  }
+  h2 {
+    font-size: 1.2rem;
+    margin: 40px 0 10px;
+    padding-top: 8px;
+  }
+  .updated {
+    color: var(--muted);
+    font-size: 0.9rem;
+    margin: 0;
+  }
+  p { margin: 12px 0; }
+  ul { margin: 12px 0; padding-left: 24px; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  .lede {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin: 24px 0;
+  }
+  code {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 1px 5px;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    font-size: 0.9em;
+  }
+  footer {
+    margin-top: 56px;
+    padding-top: 16px;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.88rem;
+  }
+</style>
 </head>
 <body>
-  <div class="wrap">
-    <header class="brand" aria-label="Bar Tenders Atlas">
-      <div class="mark" aria-hidden="true">
-        <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path d="M10 13h44L35.5 34.5V49h10v4h-27v-4h10V34.5L10 13Z" stroke="#d8aa4b" stroke-width="3" stroke-linejoin="round"/>
-          <path d="M17 20h30" stroke="#f0cc78" stroke-width="2"/>
-          <circle cx="37" cy="27" r="4" fill="#d8aa4b"/>
-          <path d="M42 25 51 9" stroke="#f0cc78" stroke-width="2.5" stroke-linecap="round"/>
-        </svg>
-      </div>
-      <div>
-        <p class="brand-name">Bar<span>Tenders</span>Atlas</p>
-        <p class="tagline">Explore · Mix · Master</p>
-      </div>
-    </header>
+<main>
+  <header>
+    <h1>Privacy Policy — Ramen Recipes</h1>
+    <p class="updated">Last updated: 7 September 2026</p>
+  </header>
 
-    <div class="hero">
-      <h1>Privacy Policy</h1>
-      <p class="effective">Bar Tender Atlas</p>
-      <p class="intro">Bar Tender Atlas is designed to work fully offline. G. Thompson does not operate a server for this app and does not collect, transmit or sell your personal data.
-      https://gjt7976.github.io/app-privacy-policies/privacy-policy.html</p>
-    </div>
+  <p><strong>Ramen Recipes</strong> (&ldquo;the app&rdquo;) is published by G Thompson.
+  This policy explains what the app does and does not do with information.</p>
 
-    <main>
-      <section>
-        <h2>What is stored, and where</h2>
-        <p>All app data — your favorites, ratings, personal notes, collections, “My Bar” ingredients, shopping list, custom recipes, and settings — is stored <strong>only on your device</strong> using local storage. It is never uploaded to us.</p>
-      </section>
-
-      <section>
-        <h2>What we do NOT collect</h2>
-        <p>No account is required. We do not collect your name, email, contacts, location, photos library, advertising identifiers, or usage analytics. The app contains no third-party advertising or tracking SDKs.</p>
-      </section>
-
-      <section>
-        <h2>Photos</h2>
-        <p>If you add a photo to a custom recipe, the image is copied into the app's private storage on your device. It is not uploaded anywhere.</p>
-      </section>
-
-      <section>
-        <h2>Purchases</h2>
-        <p>The optional one-time “Atlas Pro” upgrade is processed by Google Play Billing. Google processes the transaction under its own privacy policy; the app receives only a confirmation that the product is owned. No payment details reach the app or G. Thompson.</p>
-      </section>
-
-      <section>
-        <h2>Backups and exports</h2>
-        <p>Backup and export files are created only when you ask for them and are shared through your device's own share sheet to a destination you choose.</p>
-      </section>
-
-      <section>
-        <h2>Children</h2>
-        <p>The app is intended for adults of legal drinking age and is not directed to children.</p>
-      </section>
-
-      <section>
-        <h2>Your control</h2>
-        <p>You can delete all app data at any time from <strong>Settings → Data → Delete all data</strong>.</p>
-      </section>
-
-      <section>
-        <h2>Contact</h2>
-        <p><a href="mailto:support@bartendersatlas.example">support@bartendersatlas.example</a></p>
-      </section>
-
-      <section class="notice">
-        <h2>Legal review notice</h2>
-        <p>This document is a draft and must be reviewed by a qualified legal professional before the application is published commercially.</p>
-      </section>
-    </main>
-
-    <footer>
-      <div class="divider"></div>
-      <p>© 2026 G. Thompson · Bar Tender Atlas</p>
-    </footer>
+  <div class="lede">
+    <p style="margin:0"><strong>Summary.</strong> The app collects <strong>no personal
+    data</strong> and sends <strong>nothing</strong> off your device. It has no accounts,
+    no analytics, no advertising, no crash reporting and no cloud services.</p>
   </div>
+
+  <h2>Information the app stores on your device</h2>
+  <p>The app saves a small amount of data <strong>locally on your device only</strong>.
+  It is never transmitted anywhere and is removed when you uninstall the app:</p>
+  <ul>
+    <li>Which recipes you have marked as favourites.</li>
+    <li>Your settings: theme (dark / light / system), language, and measurement units
+      (Metric / US Customary).</li>
+    <li>Whether you have purchased the optional &ldquo;Ramen Recipes Pro&rdquo; unlock.</li>
+    <li>(Pro) any personal notes or collections you create.</li>
+  </ul>
+
+  <h2>Purchases</h2>
+  <p>The optional one-time &ldquo;Ramen Recipes Pro&rdquo; unlock is processed by
+  <strong>Google Play Billing</strong>. The app never sees your payment details.
+  Google&rsquo;s handling of that transaction is covered by Google&rsquo;s own privacy
+  policy. The app only records, on your device, whether the unlock is active.</p>
+
+  <h2>Network access</h2>
+  <p>The app requests the <code>INTERNET</code> permission solely so that Google Play
+  Billing can complete a purchase or restore. No recipe content, images, analytics or
+  diagnostics are downloaded or uploaded. The app is fully usable with no network
+  connection.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Internet</strong> — used only for the optional in-app purchase / restore,
+      via Google Play Billing.</li>
+  </ul>
+  <p>The app requests no other permissions (no location, camera, contacts, storage,
+  microphone, notifications, or device identifiers).</p>
+
+  <h2>Children</h2>
+  <p>The app contains no user-generated content, no chat, no ads and no data collection.
+  It is suitable for a general audience.</p>
+
+  <h2>Data deletion</h2>
+  <p>All app data is local. To delete it, uninstall the app, or use
+  <em>Settings &rarr; Apps &rarr; Ramen Recipes &rarr; Storage &rarr; Clear data</em>.
+  There is no server-side data to delete because none is collected.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted at the same URL with a
+  new &ldquo;Last updated&rdquo; date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <code>TODO(owner)</code> (support email).</p>
+
+  <footer>
+    &copy; 2026 G Thompson. Ramen Recipes.
+  </footer>
+</main>
 </body>
 </html>
