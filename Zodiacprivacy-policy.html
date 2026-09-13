@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Privacy Policy — Celestial Grimoire</title>
+<style>
+  :root {
+    color-scheme: light;
+    --ink: #1b1c28;
+    --muted: #565a72;
+    --rule: #dcdfe8;
+    --accent: #8a6d1f;
+    --bg: #fbfaf6;
+    --card: #ffffff;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font-family: Georgia, 'Times New Roman', serif;
+    line-height: 1.6;
+  }
+  .wrap {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 48px 20px 96px;
+  }
+  header {
+    border-bottom: 2px solid var(--accent);
+    padding-bottom: 20px;
+    margin-bottom: 32px;
+  }
+  h1 {
+    font-size: 2rem;
+    margin: 0 0 8px;
+  }
+  .meta {
+    color: var(--muted);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.92rem;
+  }
+  h2 {
+    font-size: 1.25rem;
+    margin-top: 2.2em;
+    color: var(--ink);
+    border-left: 4px solid var(--accent);
+    padding-left: 12px;
+  }
+  p, li { font-size: 1.02rem; }
+  ul { padding-left: 1.3em; }
+  li { margin-bottom: 0.5em; }
+  .card {
+    background: var(--card);
+    border: 1px solid var(--rule);
+    border-radius: 10px;
+    padding: 18px 22px;
+    margin: 1.4em 0;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1em 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.94rem;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--rule);
+    vertical-align: top;
+  }
+  th { color: var(--muted); font-weight: 600; }
+  a { color: var(--accent); }
+  footer {
+    margin-top: 3em;
+    padding-top: 1.4em;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.88rem;
+  }
+  .badge {
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    background: #eef0e0;
+    color: #4a5230;
+    border-radius: 999px;
+    padding: 3px 11px;
+    margin: 2px 6px 2px 0;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>Privacy Policy — Celestial Grimoire</h1>
+    <div class="meta">
+      Effective date: September 13, 2026 &nbsp;·&nbsp; Applies to the Celestial Grimoire
+      app for Android, Windows, and Web, on every distribution channel (direct website
+      download, Google Play, and the web app).
+    </div>
+  </header>
+
+  <p>
+    Celestial Grimoire ("the app") is developed by <strong>Niagara Indie Apps</strong>
+    (G Thompson) ("we", "us"). This policy explains what information the app handles,
+    where it goes, and the choices you have. We wrote it to describe exactly what the
+    app actually does — not a generic template — because that is the standard we hold
+    the app itself to.
+  </p>
+
+  <div class="card">
+    <span class="badge">Local-first</span>
+    <span class="badge">No account required</span>
+    <span class="badge">No ads</span>
+    <span class="badge">No analytics or trackers</span>
+    <span class="badge">No data sold or shared</span>
+    <p style="margin-bottom:0; margin-top:10px;">
+      <strong>In short:</strong> everything you enter into Celestial Grimoire — your birth
+      details, journal entries, favorites, and settings — is stored only on your own
+      device. We do not operate a server that receives or stores your personal data, and
+      the app contains no advertising or analytics software.
+    </p>
+  </div>
+
+  <h2>1. Information the app stores, and where</h2>
+  <p>All of the following is stored locally in the app's own database on your device,
+     using standard local storage (SQLite via the Drift library). None of it is
+     transmitted to us, to an app server, or to any third party as part of normal
+     app use.</p>
+  <table>
+    <tr><th>Information</th><th>Why the app collects it</th></tr>
+    <tr>
+      <td>Name or display name, birth date, birth time (or "unknown"), birthplace,
+          time zone, optional birth notes</td>
+      <td>Required to calculate your natal chart, Daily Cards, and astrological
+          placements. This is the core purpose of the app.</td>
+    </tr>
+    <tr>
+      <td>Current location (optional, entered as a place name — not GPS)</td>
+      <td>Used only if you enable sunrise-based Daily Card reveal timing.</td>
+    </tr>
+    <tr>
+      <td>Journal entries, favorites, collected Daily Cards</td>
+      <td>Your personal records within the app.</td>
+    </tr>
+    <tr>
+      <td>Compatibility/synastry profiles you create for other people (name, birth
+          date/time/place)</td>
+      <td>Lets you compare charts. Stored the same way as your own profile — locally
+          only, never uploaded anywhere.</td>
+    </tr>
+    <tr>
+      <td>App settings (house system, notification preferences, theme, etc.)</td>
+      <td>Remembers your preferences between sessions.</td>
+    </tr>
+  </table>
+
+  <h2>2. The one feature that does use the internet</h2>
+  <p>
+    When you search for a birthplace or current-location name during onboarding or
+    when adding a compatibility profile, the text you type is sent to your device's
+    built-in place-lookup service (for example, Google's location services on Android
+    or Apple's on iOS/macOS) so it can be turned into map coordinates. This is a
+    standard operating-system feature the app calls into — it is not our server, and
+    we never see or receive that search text. It only happens when you actively search
+    for a place; the app does not otherwise access your device's location or GPS, and
+    does not request location permission.
+  </p>
+
+  <h2>3. Notifications</h2>
+  <p>
+    Daily Card, Full Moon/New Moon, and journal-reminder notifications are scheduled
+    and shown entirely on your device using your device's local notification system.
+    No push-notification server is involved, and no notification content is sent
+    anywhere.
+  </p>
+
+  <h2>4. Sharing a Daily Card</h2>
+  <p>
+    If you tap Share on a Daily Card, the app generates an image on your device and
+    hands it to your operating system's normal share sheet — the same mechanism any
+    app uses to share a photo. Where that image goes next is entirely your choice
+    (a messaging app, social media, saving it, etc.). We never receive a copy. The
+    shareable image never includes your exact birth date, birth time, birthplace, or
+    private journal content, regardless of which share option you choose.
+  </p>
+
+  <h2>5. What the app does <em>not</em> do</h2>
+  <ul>
+    <li>No account creation, sign-in, or user registration of any kind.</li>
+    <li>No analytics, crash-reporting, or usage-tracking SDKs.</li>
+    <li>No advertising or ad networks.</li>
+    <li>No sale, rental, or sharing of your data with third parties for marketing or
+        any other purpose.</li>
+    <li>No cloud backup or sync of your data (a future version may offer this as an
+        explicit, opt-in feature — this policy will be updated first if so).</li>
+    <li>No collection of contacts, photos, camera, microphone, or precise device
+        location.</li>
+  </ul>
+
+  <h2>6. Your choices and control over your data</h2>
+  <ul>
+    <li><strong>Delete everything:</strong> Settings → Erase All Data removes your
+        profile, journal, favorites, collected cards, compatibility profiles, and
+        settings from the device immediately.</li>
+    <li><strong>Uninstall:</strong> uninstalling the app removes its local database
+        along with it, on every supported platform.</li>
+    <li><strong>Notifications:</strong> each notification category (Daily Card,
+        Moon phases, journal reminders) can be turned off individually in Settings,
+        and can also be disabled at the operating-system level.</li>
+  </ul>
+
+  <h2>7. Children's privacy</h2>
+  <p>
+    Celestial Grimoire is not directed at children and we do not knowingly collect
+    personal information from children. Because the app does not transmit personal
+    data off-device in the first place, there is no server-side record of any user's
+    data, child or otherwise, for us to hold.
+  </p>
+
+  <h2>8. Website purchase vs. Google Play</h2>
+  <p>
+    If you purchase Celestial Grimoire directly from our website, that transaction is
+    handled by our website's own checkout system, which is separate from the app
+    itself and covered by the website's own privacy policy and terms at the time of
+    purchase. If you install Celestial Grimoire from Google Play, your purchase and
+    payment information is handled by Google Play under Google's own privacy policy —
+    we never receive your payment details in either case.
+  </p>
+
+  <h2>9. Changes to this policy</h2>
+  <p>
+    If we change what the app collects or how it behaves in a way that affects this
+    policy, we will update this page and the "Effective date" above before that change
+    ships. We will not retroactively reinterpret a past version of this policy to
+    justify a practice that wasn't disclosed at the time.
+  </p>
+
+  <h2>10. Contact us</h2>
+  <p>
+    Questions about this policy or how Celestial Grimoire handles information can be
+    sent to: <a href="mailto:gt79767976@gmail.com">gt79767976@gmail.com</a>.
+  </p>
+
+  <footer>
+    &copy; 2026 Niagara Indie Apps (G Thompson). All rights reserved.
+    Celestial Grimoire and its content are the property of Niagara Indie Apps.
+  </footer>
+</div>
+</body>
+</html>
